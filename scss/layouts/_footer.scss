@@ -1,0 +1,77 @@
+/*Footer*/
+
+footer{
+    grid-area: footer;
+    background: rgb(184,96,210);
+    background: linear-gradient(90deg, rgba(184,96,210,0.3617822128851541) 0%, rgba(225,150,242,0.9668242296918768) 35%, rgba(245,203,244,1) 100%);
+}
+
+.cajas{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@mixin cajitas {
+    margin-top: 15px;
+    padding: 8px 0;
+    
+}
+
+.caja-1{
+    @include cajitas;
+        & h4{
+            text-align: center;
+        }
+        & ul{
+            text-align: center;
+        }
+            & ul li a{
+                text-decoration: none;
+                color: $black;
+            }
+    
+}
+
+.caja-2{
+   @include cajitas;
+    & h4{
+        text-align: center;
+    }
+    & ul{
+        text-align: center;
+            & li a{
+                text-decoration: none;
+                color: $black;
+            }
+    }
+}
+
+.caja-3{
+    @include cajitas;
+    & h4{
+        text-align: center;    
+        }
+        & ul{
+            display: flex;
+            align-items: center;
+            
+                & li{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    padding-left: 0;
+                     & a{
+                        text-decoration: none;
+                        color: #000;
+                            & i{
+                                font-size: 30px;
+                             }
+                     } 
+                }
+        }
+
+}
+
+/*
+padding: 10px;
+        margin-left: 5px;
+*/

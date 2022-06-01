@@ -1,0 +1,23 @@
+$fontmain: 'Oswald', sans-serif;
+$fontsecundaria:'Poppins', sans-serif;
+$fonttercera:'Roboto', sans-serif;
+$black: #000000;
+$colordefondo:#9785;
+$letrasize: 15px;
+
+/*MAPAAAA */
+
+$grupos:(
+    gidle: #031c65, 
+    blackpink: #8e035b,
+    itzy: #880206,
+    ive: #04a55a,
+    dreamcatcher: #035b65,
+    got7: #147a05,
+);
+
+@each $gg, $color in $grupos{
+    .gg-#{$gg} {
+        color:$color;
+    }
+} 
