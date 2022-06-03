@@ -13,7 +13,7 @@ footer{
 
 @mixin cajitas {
     margin-top: 15px;
-    padding: 8px 0;
+    padding: 7px 0;
     
 }
 
@@ -56,9 +56,9 @@ footer{
             align-items: center;
             
                 & li{
-                    margin-left: 20px;
+                    margin-left: 19px;
                     margin-top: 10px;
-                    padding-left: 0;
+                    padding-left: 15px;
                      & a{
                         text-decoration: none;
                         color: #000;
